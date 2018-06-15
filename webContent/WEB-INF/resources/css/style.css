@@ -1,0 +1,80 @@
+@charset "UTF-8";
+*{margin:0}
+.main{
+	width:400px; margin:0 auto;	
+}
+.title{
+	text-align:center;
+	font-size:25pt;
+	color:#455;
+	/* x y spread color */
+	text-shadow:3px 3px 5px gray;
+	margin-top:10px;
+}
+button.big{
+	font-size: 13pt;
+	display: block;
+	width: 150px;
+	height: 30px;
+	margin: 0 auto;
+	background: silver;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 2px 2px 5px green;
+}
+hr{
+	margin: 10px 0;
+}
+button.small{
+	display: inline-block;
+	width: 40%;
+	height: 30px;
+	margin: 0 auto;
+	background: teal;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 2px 2px 3px green;
+}
+.comment{
+	height: 200px;
+	box-shadow: 5px 5px 7px #d3b5b5;
+	background: #e8e8e8;
+	margin: 20px 0px;
+}
+.comment > div{
+	border: 2px solid white;
+	padding: 5px 5px;
+}
+.grid_3_7{
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+.msg{
+	max-height: 100px;
+	height: 60px;
+}
+.text_center{
+	text-align: center;
+}
+.table_add > th{
+	padding: 10px;
+	color: #444;
+	text-shadow: 2px, 2px, 3px, gray;
+}
+.search {
+	margin-top: 20px;
+	text-align: right;
+	height: 23px;
+}
+.search input[type="text"] {
+	height: 20px;
+	width: 70px;	
+}
+.search select {
+	height: 100%;
+}
+.error {
+	color: red;
+}
